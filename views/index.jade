@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p User status: {{status}}
+  h2 Albums {{albums.length}}
+  ul
+    li(ng-repeat='album in albums') {{album.name}}
