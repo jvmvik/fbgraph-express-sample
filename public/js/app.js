@@ -6,7 +6,7 @@ $scope.albums = [];
 $scope.status = "Loading...";
 
 FB.init({
-  appId      : '319353788220919',
+  appId      : 'your-app-id',
   xfbml      : true,
   version    : 'v2.0'
 });
